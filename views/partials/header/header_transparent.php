@@ -78,7 +78,7 @@ $obj = new Header_COMP();
 				?>
 			<?php } ?>
 			<?php
-			if ( 'tutor' === tutor_utils()->get_option( 'monetize_by' ) && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
+			if ( tutor_utils()->is_monetize_by_tutor() && 'header_fullwidth_center' !== get_theme_mod( 'header_type_select' ) ) {
 				if ( true === get_theme_mod( 'cart_btn_toggle', true ) && function_exists( 'tutor_ecommerce_cart_button' ) ) {
 					tutor_ecommerce_cart_button();
 				}
