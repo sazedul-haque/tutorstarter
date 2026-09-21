@@ -491,7 +491,7 @@ class Header {
 			array(
 				'title'             => esc_html__( 'Cart Icon Color', 'tutorstarter' ),
 				'transport'         => 'postMessage',
-				'default'           => '#1950D1',
+				'default'           => '#0c111d',
 				'sanitize_callback' => 'sanitize_hex_color',
 			)
 		);
@@ -511,7 +511,7 @@ class Header {
 			array(
 				'title'             => esc_html__( 'Cart Badge Color', 'tutorstarter' ),
 				'transport'         => 'postMessage',
-				'default'           => '#e74c3c',
+				'default'           => '#0c111d',
 				'sanitize_callback' => 'sanitize_hex_color',
 			)
 		);
